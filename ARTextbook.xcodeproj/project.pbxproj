@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79614F252324C4A300258876 /* PharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79614F242324C4A300258876 /* PharView.swift */; };
 		79816D432324A312006EFB0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79816D422324A312006EFB0A /* AppDelegate.swift */; };
 		79816D452324A312006EFB0A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 79816D442324A312006EFB0A /* art.scnassets */; };
 		79816D472324A312006EFB0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79816D462324A312006EFB0A /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79614F242324C4A300258876 /* PharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharView.swift; sourceTree = "<group>"; };
 		79816D3F2324A312006EFB0A /* ARTextbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTextbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79816D422324A312006EFB0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79816D442324A312006EFB0A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		79816D362324A312006EFB0A = {
 			isa = PBXGroup;
 			children = (
+				79614F242324C4A300258876 /* PharView.swift */,
 				79816D412324A312006EFB0A /* ARTextbook */,
 				79816D402324A312006EFB0A /* Products */,
 				A5F775C7D864D07185AF91E9 /* Pods */,
@@ -275,6 +278,7 @@
 				79816D6B2324A42B006EFB0A /* ARSceneView.swift in Sources */,
 				79816D6E2324A42B006EFB0A /* EnterClassCodeScreen.swift in Sources */,
 				79816D6A2324A42B006EFB0A /* LoginViewController.swift in Sources */,
+				79614F252324C4A300258876 /* PharView.swift in Sources */,
 				79816D472324A312006EFB0A /* ViewController.swift in Sources */,
 				79816D6F2324A42B006EFB0A /* myTextbooksView.swift in Sources */,
 				79816D6C2324A42B006EFB0A /* BookCollectionViewCell.swift in Sources */,
