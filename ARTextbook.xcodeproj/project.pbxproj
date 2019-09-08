@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7911DA5D2324E0DF00C21FEC /* pi_os.dae in Resources */ = {isa = PBXBuildFile; fileRef = 7911DA5C2324E0DF00C21FEC /* pi_os.dae */; };
 		7911DA5F2324E11B00C21FEC /* GOVGRID_METAL_BRUSHED_GRAY.png in Resources */ = {isa = PBXBuildFile; fileRef = 7911DA5E2324E11B00C21FEC /* GOVGRID_METAL_BRUSHED_GRAY.png */; };
+		7911DA612324F90B00C21FEC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7911DA602324F90A00C21FEC /* logo.png */; };
 		79614F252324C4A300258876 /* PharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79614F242324C4A300258876 /* PharView.swift */; };
 		79816D432324A312006EFB0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79816D422324A312006EFB0A /* AppDelegate.swift */; };
 		79816D452324A312006EFB0A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 79816D442324A312006EFB0A /* art.scnassets */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		7911DA5C2324E0DF00C21FEC /* pi_os.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = pi_os.dae; sourceTree = "<group>"; };
 		7911DA5E2324E11B00C21FEC /* GOVGRID_METAL_BRUSHED_GRAY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GOVGRID_METAL_BRUSHED_GRAY.png; sourceTree = "<group>"; };
+		7911DA602324F90A00C21FEC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Assets.xcassets/logo.png; sourceTree = "<group>"; };
 		79614F242324C4A300258876 /* PharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharView.swift; sourceTree = "<group>"; };
 		79614F312324D83100258876 /* linkedList.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = linkedList.obj; path = /Users/jamesluo/Documents/ARTextBook3.0/ARTextbook/linkedList.obj; sourceTree = "<absolute>"; };
 		79816D3F2324A312006EFB0A /* ARTextbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTextbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 				79816D5B2324A421006EFB0A /* RainForestPart3.scn */,
 				79816D582324A421006EFB0A /* RainForrest.scn */,
 				79816D712324A44C006EFB0A /* LaunchScreen.storyboard */,
+				7911DA602324F90A00C21FEC /* logo.png */,
 				79816D702324A44C006EFB0A /* Main.storyboard */,
 				7911DA5C2324E0DF00C21FEC /* pi_os.dae */,
 				7911DA5E2324E11B00C21FEC /* GOVGRID_METAL_BRUSHED_GRAY.png */,
@@ -205,6 +208,7 @@
 				79816D722324A44C006EFB0A /* Main.storyboard in Resources */,
 				79816D612324A421006EFB0A /* RainForestPart2.scn in Resources */,
 				79816D452324A312006EFB0A /* art.scnassets in Resources */,
+				7911DA612324F90B00C21FEC /* logo.png in Resources */,
 				7911DA5F2324E11B00C21FEC /* GOVGRID_METAL_BRUSHED_GRAY.png in Resources */,
 				79816D622324A421006EFB0A /* RainForestPart3.scn in Resources */,
 				79816D752324A46E006EFB0A /* GoogleService-Info.plist in Resources */,

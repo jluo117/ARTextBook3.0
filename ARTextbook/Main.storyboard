@@ -224,6 +224,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="QAA-PG-waT"/>
         <segue reference="QuD-ft-QWm"/>
         <segue reference="nHP-Ry-9GO"/>
     </inferredMetricsTieBreakers>
