@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/jamesluo/Documents/ARTextBook3.0/ARTextbook/linkedList.obj">
+   </FileRef>
+   <FileRef
       location = "group:ARTextbook.xcodeproj">
    </FileRef>
    <FileRef

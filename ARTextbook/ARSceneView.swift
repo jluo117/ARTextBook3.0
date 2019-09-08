@@ -30,9 +30,23 @@ class ARSceneView: UIViewController, ARSCNViewDelegate {
             if Current == "US History"{
                 self.loadHistory()
             }
+            if Current == "Comp"{
+                self.loadComp()
+            }
+            if Current == "Calc"{
+                self.loadCalc()
+            }
         }
             
         }
+    func loadCalc(){
+        let scene = SCNScene(named: "art.scnassets/Calc.scn")!
+        sceneView.scene = scene
+    }
+    func loadComp(){
+        let scene = SCNScene(named: "art.scnassets/LinkedList.scn")!
+        sceneView.scene = scene
+    }
     func loadHistory(){
         let scene = SCNScene(named: "art.scnassets/ship.scn")!
         
@@ -120,7 +134,7 @@ class ARSceneView: UIViewController, ARSCNViewDelegate {
             super.viewWillAppear(animated)
             
             // Create a session configuration
-            let configuration = ARWorldTrackingConfiguration()
+            let configuration = AROrientationTrackingConfiguration()  
 
             // Run the view's session
             sceneView.session.run(configuration)
