@@ -9,11 +9,13 @@
 import UIKit
 
 private let reuseIdentifier = "Cell"
+var myThead = DispatchGroup()
 
 class BookCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        myThead.enter()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

@@ -12,6 +12,7 @@ class BookCollectionViewCell: UICollectionViewCell {
     @IBAction func toAR(_ sender: UIButton) {
         Current = BookName.currentTitle!
         print(Current)
+        myThead.leave()
     }
     
     @IBOutlet weak var BookName: UIButton!
